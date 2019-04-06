@@ -1,6 +1,6 @@
+import quandl
 
 
-
-class Predictor:
+class Datalinger():
     def __init__(self):
         pass
