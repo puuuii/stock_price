@@ -5,3 +5,5 @@ __pycache__/train.cpython-36.pyc
 __pycache__/dataling.cpython-36.pyc
 __pycache__/download.cpython-36.pyc
 __pycache__/predict.cpython-36.pyc
+pandas/_libs/parsers.pyx
+__pycache__/basedata.cpython-36.pyc

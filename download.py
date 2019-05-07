@@ -8,12 +8,11 @@ import requests
 import glob
 
 
-GET_LENGTH = 100       # 何日分さかのぼってデータ取得するか
 quandl.ApiConfig.api_key = '5DqEjiAZzgnfe6bWDJr5'
 
 
-def download_data():
-   _get_datas(GET_LENGTH)
+def download_data(get_period=100):
+   _get_datas(get_period)
 
 
 def _get_datas(get_length):
